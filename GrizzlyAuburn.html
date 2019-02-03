@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+<style>
+#bd
+{
+	background-color: green;
+
+}
+#title
+{
+	color: white
+
+}
+#nButton
+{
+
+	background-color: #008CBA;
+	color: white;
+	border-radius: 12px;
+
+}
+
+#sButton
+{
+	background-color: #008CBA;
+	color: white;
+	border-radius: 12px;
+}
+#wButton
+{
+	background-color: #008CBA;
+	color: white;
+	border-radius: 12px;
+}
+#eButton
+{
+	background-color: #008CBA;
+	color: white;
+	border-radius: 12px;
+}
+#nPic
+{
+	display: none;
+	text-align: left;
+}
+
+#sPic
+{
+	display: none;
+	
+	
+}
+#wPic
+{
+	display: none;
+	
+	
+}
+#ePic
+{
+	display: none;
+	text-align: right;
+	
+}
+</style>
+</head>
+
+<body id="bd";>
+<table id="tbl"; border=0 width="350px"; height="50px"; align="center";>
+	<tr>
+		<td colspan=4; align="center";>
+			<div id="title";>
+				<h1>Grizzly Bright</h1>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>				
+			<button id="nButton"; onclick="myFunction1()">
+				<h2>North</h2>
+			</button>
+		</td>
+		<td>
+			<button id="sButton"; onclick="myFunction2()">
+				<h2>South</h2>
+			</button>
+		</td>
+		<td>
+			<button id="wButton"; onclick="myFunction3()">
+				<h2>West</h2>
+			</button>
+		</td>
+		<td>
+			<button id="eButton"; onclick="myFunction4()">
+				<h2>East</h2>
+			</button>
+		</td>
+	</tr>
+</table>
+<table id="tb2"; border=0 width="350px"; height="50px"; align="center";>
+	<tr>
+		<td>
+			<div id="nPic"; align="center";>
+				<img src="./maps/north.png">
+			</div>
+		</td>
+		<td>
+			<div id="sPic"; align="center";>
+				<img src="./maps/south.png">
+			</div>
+		</td>
+		<td>
+			<div id="wPic"; align="center";>
+				<img src="./maps/west.png">
+			</div>
+		</td>
+		<td>
+			<div  id="ePic"; align="center";>
+				<img src="./maps/east.png">
+			</div>
+		</td>
+	</tr>
+</table>
+<script>
+function myFunction1() {
+  var x = document.getElementById("nPic");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunction2() {
+  var x = document.getElementById("sPic");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunction3() {
+  var x = document.getElementById("wPic");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunction4() {
+  var x = document.getElementById("ePic");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
