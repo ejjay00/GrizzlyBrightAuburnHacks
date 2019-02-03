@@ -1,2 +1,8 @@
 # GrizzlyBrightAuburnHacks
-Submission for AuburnHacks from Team Grizzly
+Submission for AuburnHacks from Team Grizzly (Nancy Sardar, Eric Jenkins, Hasan Mohammed, Yonathan Zuniga)
+
+After brainstorming the prompt, our team designed a system to combat future medical crisis within Innovation City through “Grizzly Bright.” “Grizzly Bright” consists of an illuminated light system built into reflectors along the road to indicate the path an emergency vehicle will take. This optimizes the time it takes for civilians to register that an emergency vehicle needs their current passageway and allows them to move to a different lane. This also enables emergency responders to reach their destination in a timely fashion.
+
+Emergency responders must have the system built into their respective vehicles. The routes are chosen and aligned by either the responders or operators of the system. The system must also be able to reroute new pathways for emergency responders for real-time concerns. When the system software is accessed, the operator can select a map area of Innovation City through GPS and be able to select routes along the different pathways. Once a road is selected, the system software highlights the path in red, indicating that the lights along the roads have been activated. This then alerts vehicles traveling along these paths to switch lanes and not obstruct the emergency vehicle(s) trying to pass. To ensure minimal system down-time, “Grizzly Bright” will be implemented through satellite GPS.
+
+This team hopes that with the use of “Grizzly Bright,” Innovation City will minimalize the likelihood of another situation where emergency facilities are not reached in an optimal time.
